@@ -7,7 +7,7 @@
   margin: 0;
 }
 
-/* ---- Custom properties ---- */
+/* ---- Custom properties ---- 
 :root {
   --primary-color: #047aed;
   --secondary-color: #1c3fa8;
@@ -16,10 +16,20 @@
   --success-color: #5cb85c;
   --error-color: #d9534f;
 }
+*/
+:root {
+  --primary-color: #a14751;
+  --secondary-color: #75222c;
+  --dark-color: #47171d;
+  --light-color: #f9f0f1;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+}
 
 body {
   font-family: 'Lato', sans-serif;
-  color: #333;
+  /*color: #333;*/
+  color: #0f0909;
   line-height: 1.6;
 }
 
@@ -52,6 +62,10 @@ pre {
   background: #333;
   color: #fff;
   padding: 10px;
+}
+
+.logo {
+  letter-spacing: 2px;
 }
 
 /* set up hidden for netlify form */
@@ -218,7 +232,7 @@ pre {
 }
 
 .features-sub-head img {
-  width: 300px;
+  width: 350px;
   justify-self: flex-end;
 }
 
